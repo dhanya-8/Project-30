@@ -25,7 +25,7 @@ class Block{
           push();
           tint(255,this.visibility);
           this.visibility=this.visibility-5;
-          image(this.image, pos.x, pos.y, 30, 40);
+          image(this.image, this.body.position.x, this.body.position.y, 30, 40);
           pop();
       }
   }
